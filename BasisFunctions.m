@@ -1,5 +1,4 @@
-
-%{ Laguirre Polynomials as basis functions for use in LSM Monte Carlo. Here maximum k (5) basis functions used. }%
+% Laguirre polynomials used as Basis Functions for Least Squares Monte Carlo. A max of 5 basis functions can be used.
 
 function A = BasisFunctions(X,k)
 
