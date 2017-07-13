@@ -1,7 +1,7 @@
 
 % Comparison of Least Squares Monte Carlo with Black Scholes Option Value for European Put Option. Laguirre Polynomials are 
-% used as in Longstaff Schwartz (2001) paper. This code is to show why
-% regression functions are not a good fit for option pricing. 
+% used as in Longstaff Schwartz (2001) paper. This code is to show why regression functions are not a good fit for option pricing
+% at each time steps which is necessary to calculate expected exposure, counter-party credit risk and CVA.
 
 
 clear;
@@ -143,8 +143,8 @@ err = sum(diff);                                       % total error
 
 %{ 
 The following code will generate plots regression values and black scholes values for different spot 
-spot prices at all time steps in one plot. So we can have a single plot for
-T = 1. This one is not recommended and does not provide too much insights.
+spot prices at all time steps in one plot. So we can have a single plot for T = 1. This one is not recommended and 
+does not provide too much insights.
 %}
 
 %{
